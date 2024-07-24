@@ -17,7 +17,7 @@ Structures represent both classes and structs found in other languages as the di
 A struct is defined like this:
 
 ```hyve
-struct {
+struct User {
     ...
 }
 ```

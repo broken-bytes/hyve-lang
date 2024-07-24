@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import synthwave from './src/theme/prism.synthwave'
 
 const config: Config = {
   title: 'hyve-lang',
@@ -86,7 +87,7 @@ const config: Config = {
     },
     prism: {
       theme: prismThemes.dracula,
-      darkTheme: prismThemes.dracula,
+      darkTheme: synthwave,
     },
     colorMode: {
       defaultMode: 'dark',  // Set your preferred default mode (light or dark)
