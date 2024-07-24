@@ -5,7 +5,7 @@
     }
 
     // Keyword patterns 
-    var keyword = /\b(?:async|await|break|continue|catch|continue|defer|else|enum|fn|for|if|inline|let|next|none|private|public|return|struct|try|union|var|val|when|while|contract|module|mut)\b/; // Add new Hyve keywords
+    var keyword = /\b(?:async|await|break|continue|case|catch|continue|defer|else|enum|fn|for|if|inline|let|next|none|private|public|return|struct|try|union|var|val|when|while|contract|module|mut)\b/; // Add new Hyve keywords
 
 
     // Identifier pattern
