@@ -48,7 +48,7 @@ struct TicketServer {
 :::note
 Functions inside structs are called *methods*.
 
-They automatically have a hidden `self` parameter than can be used inside of the function. `self` always points to the object itself.
+They automatically have access to `self`. `self` always points to the object itself.
 :::
 
 ## Initialisation
