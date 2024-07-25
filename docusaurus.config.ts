@@ -40,6 +40,13 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/broken-bytes/Hyve-docs',
+            lastVersion: 'current',
+            versions: {
+              current: {
+                label: '0.0.1a',
+                path: '0.0.1a',
+            },
+      },
         },
         blog: {
           showReadingTime: true,
