@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
-description: Get Hyve running in to time
+sidebar_position: 2
+description: Get Hyve up and running
 ---
 
 # Installation
@@ -22,9 +22,9 @@ curl -LJO https://hyve-lang.org/install.bat && call install.bat <version>
 
 </TabItem>
 
-<TabItem value="macOs" label="macOs">
+<TabItem value="macOS" label="macOS">
 
-```shell
+```bash
 curl -sSL https://hyve-lang.org/install.sh | sh -s --<version>
 ```
 
@@ -32,7 +32,7 @@ curl -sSL https://hyve-lang.org/install.sh | sh -s --<version>
 
 <TabItem value="Linux" label="Linux">
 
-```shell
+```bash
 curl -sSL https://hyve-lang.org/install.sh | sh -s --<version>
 ```
 
@@ -40,4 +40,7 @@ curl -sSL https://hyve-lang.org/install.sh | sh -s --<version>
 
 </Tabs>
 
-After installation, run `hyvec --version`. If everything went right it should greet you with the version of the compiler you just installed.
+## Quick Start
+
+After installation, run `comb init`. Comb is Hyve's package manager. It allows to create and build projects without all the hassle.
+To build the application, run `comb build`. To run it, run `comb run`.

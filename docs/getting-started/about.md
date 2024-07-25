@@ -1,54 +1,32 @@
 ---
 sidebar_position: 1
+title: Welcome
 description: A Modern Language for a Secure, Concurrent World
 ---
 
-# About Hyve
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+# Hyve
 
-# A Modern Language for a Secure, Concurrent World
+## Overview
+Hyve is a modern, highly asynchronous programming language designed for building scalable and efficient software. Embracing the latest in concurrent programming paradigms, Hyve offers a unique blend of performance, simplicity, and flexibility for developers.
 
-Hyve is a cutting-edge programming language designed to empower developers to build robust, high-performance applications across a wide range of platforms. 
+## Features
+- 🔮 **Full control**: No nasty Garbage Collector, no heavy runtime. Just manual memory management made beautiful.
+- 🧊 **Immutability**: Immutable data structures and functions by default to increase robustness and predictability. 
+- 🧵 **Asynchronous by Nature**: At its core, Hyve is built to handle asynchronous operations seamlessly.
+- 🔮 **Modern Syntax**: Clean and expressive syntax, enabling developers to achieve more with fewer lines and clear readability.
+- 🎚️ **Scalability**: Stay small or go big. Hyve handles large-scale applications easily - from microservices to massive cloud-based systems.
+- 🔗 **Strong Typing with Inference**: Strong typing capabilities with intelligent type inference.
+- 🤝 **Cross-Platform Compatibility**: Write once, run anywhere. Hyve code is highly portable across various platforms.
+- 🔋 **Batteries included**: Sophisticated standard library and first-class frameworks for various of tasks.
+- 🔒 **Secure by design**: Highest standards on security, ensuring your apps are safe by default.
 
-By blending modern language principles with systems programming sensibilities, Hyve strikes a balance between safety, productivity, and control; All without any runtime cost by providing zero cost abstractions for common paradigms.
+## Community
+- **GitHub**: [github.com/hyve-lang](https://github.com/broken-bytes/hyve)
+- **Discord**: Join our [Hyve Discord Community](https://discord.gg/hyve-lang)
+- **Twitter**: Follow us [@HyveLang](https://twitter.com/HyveLang) for updates and news.
 
-:::warning
-Hyve is **not** a finished programming language. Most features are missing and the compiler might produce bad code.
-:::
+## Contributing
+We love contributions! If you're interested in contributing, please read our [Contributing Guide](https://github.com/hyve-lang/hyve/CONTRIBUTING.md).
 
-## Key Features
-
-<Tabs>
-
-<TabItem value="performance" label="Performance" default>
-
-- **Zero-Cost Abstractions:** Hyve's design philosophy emphasizes zero-cost abstractions, ensuring that high-level code can achieve the performance of hand-tuned, low-level implementations.
-- **Manual Memory Management:** Hyve provides developers with precise control over memory allocation and deallocation, minimizing overhead and maximizing performance in critical scenarios.
-
-</TabItem>
-
-<TabItem value="safety" label="Safety">
-
-- **Immutability by Default:** Hyve promotes immutability as a core principle, leading to more predictable code and easier concurrency management. Mutable state is possible but requires explicit declaration.
-- **Optional Types:** Hyve's optional types enforce explicit handling of potentially missing values, eliminating a whole class of null pointer errors.
-- **Memory Safety:** Hyve comes with a set of smart pointer types to prevent common memory-related issues like leaks and dangling pointers.
-
-</TabItem>
-
-<TabItem value="concurrency" label="Concurrency">
-
-- **Async-First Design:** Hyve is built from the ground up to support asynchronous programming, making it easier to build responsive and efficient applications that can handle concurrent operations seamlessly.
-
-
-</TabItem>
-
-</Tabs>
-
-## Why Choose Hyve?
-
-- No performance compromises: You get what you pay for. No hidden runtime burden.
-- Cross-Platform Compatibility: Write code once and deploy it across a wide range of platforms, including Windows, macOS, and Linux.
-- Strong Security Focus: Hyve prioritizes security through type safety, bounds checking, and other measures to protect against vulnerabilities.
-- Expressive and Enjoyable: Hyve combines the power and flexibility needed for complex projects with the expressiveness and ease of use of a scripting language.
+## License
